@@ -10,24 +10,24 @@ webpackJsonp([1],{
   });
   exports.default = undefined;
   
-  var _Help = __webpack_require__(190);
+  var _Aboutme = __webpack_require__(189);
   
-  var _Help2 = _interopRequireDefault(_Help);
+  var _Aboutme2 = _interopRequireDefault(_Aboutme);
   
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
   
-  exports.default = _Help2.default; /**
-                                     * React App SDK (https://github.com/kriasoft/react-app)
-                                     *
-                                     * Copyright © 2015-present Kriasoft, LLC. All rights reserved.
-                                     *
-                                     * This source code is licensed under the MIT license found in the
-                                     * LICENSE.txt file in the root directory of this source tree.
-                                     */
+  exports.default = _Aboutme2.default; /**
+                                        * React App SDK (https://github.com/kriasoft/react-app)
+                                        *
+                                        * Copyright © 2015-present Kriasoft, LLC. All rights reserved.
+                                        *
+                                        * This source code is licensed under the MIT license found in the
+                                        * LICENSE.txt file in the root directory of this source tree.
+                                        */
 
 /***/ },
 
-/***/ 190:
+/***/ 189:
 /***/ function(module, exports, __webpack_require__) {
 
   'use strict';
@@ -60,15 +60,15 @@ webpackJsonp([1],{
   
   var _react2 = _interopRequireDefault(_react);
   
-  var _Layout = __webpack_require__(116);
+  var _Layout = __webpack_require__(115);
   
   var _Layout2 = _interopRequireDefault(_Layout);
   
-  var _help = __webpack_require__(385);
+  var _Aboutme = __webpack_require__(382);
   
-  var _help2 = _interopRequireDefault(_help);
+  var _Aboutme2 = _interopRequireDefault(_Aboutme);
   
-  var _help3 = __webpack_require__(391);
+  var _Aboutme3 = __webpack_require__(388);
   
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
   
@@ -92,20 +92,20 @@ webpackJsonp([1],{
     (0, _createClass3.default)(AboutPage, [{
       key: 'componentDidMount',
       value: function componentDidMount() {
-        document.title = _help3.title;
+        document.title = _Aboutme3.title;
       }
     }, {
       key: 'render',
       value: function render() {
         return _react2.default.createElement(
           _Layout2.default,
-          { className: _help2.default.content },
+          { className: _Aboutme2.default.content },
           _react2.default.createElement(
             'h1',
             null,
-            _help3.title
+            _Aboutme3.title
           ),
-          _react2.default.createElement('div', { dangerouslySetInnerHTML: { __html: _help3.html } })
+          _react2.default.createElement('div', { dangerouslySetInnerHTML: { __html: _Aboutme3.html } })
         );
       }
     }]);
@@ -116,40 +116,40 @@ webpackJsonp([1],{
 
 /***/ },
 
-/***/ 263:
+/***/ 261:
 /***/ function(module, exports, __webpack_require__) {
 
-  exports = module.exports = __webpack_require__(12)();
+  exports = module.exports = __webpack_require__(15)();
   // imports
   
   
   // module
-  exports.push([module.id, "/**\n * React App SDK (https://github.com/kriasoft/react-app)\n *\n * Copyright © 2015-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n@media screen and (max-width: 1024px) {\n\n  .help_content_3zO {\n    padding: 0 16px;\n  }\n\n}\n", "", {"version":3,"sources":["/./routes/Aboutme/help.css"],"names":[],"mappings":"AAAA;;;;;;;GAOG;;AAEH;;EAEE;IACE,gBAAgB;GACjB;;CAEF","file":"help.css","sourcesContent":["/**\n * React App SDK (https://github.com/kriasoft/react-app)\n *\n * Copyright © 2015-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n@media screen and (max-width: 1024px) {\n\n  .content {\n    padding: 0 16px;\n  }\n\n}\n"],"sourceRoot":"webpack://"}]);
+  exports.push([module.id, "/**\n * React App SDK (https://github.com/kriasoft/react-app)\n *\n * Copyright © 2015-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n@media screen and (max-width: 1024px) {\n\n  .Aboutme_content_3D1 {\n    padding: 0 16px;\n  }\n\n}\n", "", {"version":3,"sources":["/./routes/Aboutme/Aboutme.css"],"names":[],"mappings":"AAAA;;;;;;;GAOG;;AAEH;;EAEE;IACE,gBAAgB;GACjB;;CAEF","file":"Aboutme.css","sourcesContent":["/**\n * React App SDK (https://github.com/kriasoft/react-app)\n *\n * Copyright © 2015-present Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.\n */\n\n@media screen and (max-width: 1024px) {\n\n  .content {\n    padding: 0 16px;\n  }\n\n}\n"],"sourceRoot":"webpack://"}]);
   
   // exports
   exports.locals = {
-  	"content": "help_content_3zO"
+  	"content": "Aboutme_content_3D1"
   };
 
 /***/ },
 
-/***/ 385:
+/***/ 382:
 /***/ function(module, exports, __webpack_require__) {
 
   // style-loader: Adds some css to the DOM by adding a <style> tag
   
   // load the styles
-  var content = __webpack_require__(263);
+  var content = __webpack_require__(261);
   if(typeof content === 'string') content = [[module.id, content, '']];
   // add the styles to the DOM
-  var update = __webpack_require__(16)(content, {});
+  var update = __webpack_require__(17)(content, {});
   if(content.locals) module.exports = content.locals;
   // Hot Module Replacement
   if(false) {
   	// When the styles change, update the <style> tags
   	if(!content.locals) {
-  		module.hot.accept("!!./../../node_modules/css-loader/index.js?{\"sourceMap\":true,\"modules\":true,\"localIdentName\":\"[name]_[local]_[hash:base64:3]\",\"minimize\":false}!./../../node_modules/postcss-loader/index.js!./help.css", function() {
-  			var newContent = require("!!./../../node_modules/css-loader/index.js?{\"sourceMap\":true,\"modules\":true,\"localIdentName\":\"[name]_[local]_[hash:base64:3]\",\"minimize\":false}!./../../node_modules/postcss-loader/index.js!./help.css");
+  		module.hot.accept("!!./../../node_modules/css-loader/index.js?{\"sourceMap\":true,\"modules\":true,\"localIdentName\":\"[name]_[local]_[hash:base64:3]\",\"minimize\":false}!./../../node_modules/postcss-loader/index.js!./Aboutme.css", function() {
+  			var newContent = require("!!./../../node_modules/css-loader/index.js?{\"sourceMap\":true,\"modules\":true,\"localIdentName\":\"[name]_[local]_[hash:base64:3]\",\"minimize\":false}!./../../node_modules/postcss-loader/index.js!./Aboutme.css");
   			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
   			update(newContent);
   		});
@@ -160,12 +160,12 @@ webpackJsonp([1],{
 
 /***/ },
 
-/***/ 391:
+/***/ 388:
 /***/ function(module, exports) {
 
-  module.exports = {"title":"Getting Started","html":"<h2>Cadme comitum fecere</h2>\n<p>Lorem markdownum velis auras figuram spes solebat spectabat, cum alium,\nplenissima aratri visae herbarum in corpore silvas consumpta. Subito virgae nec\nparatae flexit et niveae repperit erat paratu cum albis steterat conclamat hic!</p>\n<p>Nocte suae ligat! <em>Si</em> nitidum pervia, illa tua, ab minimo pasci dabitur? In\nfictus concurreret pennis, illis cum accipe rogavi in et nostro cum lacertis\nhostibus ab saxo ne. Genibusque vixque; sine videt terribili lucos ipsum vobis\nresque, et suum pietatis fulvis, est velle. Semele oscula ferat frigidus mactata\nmontes, es me parari, piae.</p>\n<h2>Inflataque ait leves frigida</h2>\n<p>Letum per ipsa nostro animae, mari illuc in levi corpus aestibus excussam\ndeflentem sic cuius. Venere dedit illa cui in quo senecta artus bella inficit,\nAchaica. Videbatur crinem resonantia alto dea umida dicitur igne; meus signa\nhabet; est. Cognovit coepta: similes fugis: habuissem votivi liquida: ictus visi\nnostra me Adoni.</p>\n<h2>Laedar cum margine quoque</h2>\n<p>Quam dato ullis, acer venturi volantes! Tuam non non cursu acta hic, novem\nnutrit, in sidera viscera iam fontes tempora, omnes. Saturnius artus inquit,\nconatoque erectos lenius, carinae, ora est infamia elige per Medusaei induitur.\nQuem quem ab postquam tunc frondescere nodis capiam labique. Voluere luce\nSemeles.</p>\n<pre><code>    if (delete(digital, hibernateSoft, dynamicExcelVpn) &gt; io_secondary_led /\n            <span class=\"hljs-number\">84</span>) {\n        disk = load;\n        orientationPci.matrix_laptop(modelSsdTweet);\n    } else {\n        kdeEmoticonLed.mebibyte_algorithm_domain(<span class=\"hljs-number\">2</span>,\n                hackerCtr.rom_iso_desktop.scarewarePrimaryBankruptcy(station,\n                disk_mask_matrix, restore_crt));\n        cameraSpyware(<span class=\"hljs-number\">4</span>, multitasking(<span class=\"hljs-number\">-3</span>, log_dfs_controller));\n        menuCisc.swappable -= w(mount_vle_unicode, <span class=\"hljs-number\">5</span>);\n    }\n    var optic_spider = newbieFunctionThick(<span class=\"hljs-number\">-3</span>, esportsKbpsUnix);\n    var dvd_ctp_resolution = dithering;\n</code></pre>\n<h2>Usus fixurus illi petunt</h2>\n<p>Domosque tune amas mihi adhuc et <em>alter per</em> suasque versavitque iners\ncrescentemque nomen verba nunc. Acervos hinc natus si habet. Et cervix imago\nquod! Arduus dolet!</p>\n<pre><code>    cpcDdrCommand.window(moodleAlpha, im, server_alpha.doubleVrmlMonochrome(\n            iosBar - -<span class=\"hljs-number\">2</span>, white_dual, ad(<span class=\"hljs-number\">2</span>, <span class=\"hljs-number\">94</span>, <span class=\"hljs-number\">83</span>)));\n    mbps_typeface_publishing.bit.host_flash_capacity(click(<span class=\"hljs-number\">90</span>,\n            cyberspace_srgb_pup - mpeg, marketing_trackback +\n            table_plagiarism_domain));\n    syn_e = powerExtension * defragmentNntpOsd(alertOutputNode(pop,\n            pageResponsiveDrive));\n    <span class=\"hljs-function\"><span class=\"hljs-keyword\">method</span> -= <span class=\"hljs-title\">switch_newsgroup_flaming</span>;</span>\n</code></pre>\n<p>Aliquid mansura arida altismunera <strong>in illi</strong>. Dignus vir pontum <em>crimen\nversabat</em> carpunt omnes rotis Canentem erant in Oebalio, et manu senecta\niungere. Prima diurnis!</p>\n"};
+  module.exports = {"title":"TopGit — finding the best github projects!","html":"<h3>Contact Me At:</h3>\n<ul>\n<li>Sneha Jain</li>\n<li><a href=\"mailto:mystery.sneha@gmail.com\">mystery.sneha@gmail.com</a></li>\n<li>8105266097</li>\n</ul>\n<h3>TopGit</h3>\n<p>It is a front end application which would let the users help list and browse top github projects conveniently</p>\n<h3>Highlights</h3>\n<ol>\n<li>Pagination with 10 pages visible on the bottom of active page. Enables user to quickly navigate to different pages.  Right and left arrow to go next page beyond 10.</li>\n<li>Responsive and elegant web page.</li>\n<li>Filter bar on the right pane is collapsible when user is opening website in mobile device or the browser is small.</li>\n<li>Search based on stars, language.</li>\n<li>Search based on stars have a number range from 0 to 1000 and user can select minimum and maximum stars by dragging the point on the number range line.</li>\n<li>Auto complete on search based on languages</li>\n<li>Busy animation added for loading of resources</li>\n</ol>\n<h3>Installation</h3>\n<p>Dillinger requires <a href=\"https://nodejs.org/\">Node.js</a> v4+ to run.</p>\n<p>Install the dependencies and devDependencies and start the server.</p>\n<pre><code class=\"language-sh\">$ <span class=\"hljs-built_in\">cd</span> topgit\n$ npm install\n$ npm start\n</code></pre>\n"};
 
 /***/ }
 
 });
-//# sourceMappingURL=1.js.map?04eadbd1d0f58d56aa69
+//# sourceMappingURL=1.js.map?85d741ce94e7386af1e8
