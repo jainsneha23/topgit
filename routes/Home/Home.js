@@ -23,7 +23,7 @@ class HomePage extends React.Component {
     super(props);
     this.state = {
       total_count: this.props.projects.total_count,
-      items: this.props.projects.items
+      items: this.props.projects.items,
     };
     this.handleQuery = this.handleQuery.bind(this);
   }
@@ -42,8 +42,8 @@ class HomePage extends React.Component {
   render() {
     return (
       <Layout className={s.content} >
-        <QueryDrawer handleQuery={this.handleQuery} />
         <ProjectList items={this.state.items} totalCount={this.state.total_count} />
+        <QueryDrawer handleQuery={this.handleQuery} />
       </Layout>
     );
   }

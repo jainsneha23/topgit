@@ -1,6 +1,87 @@
+.drawer {
+  position: fixed;
+  right: -320px;
+  top: 5px;
+  bottom: 5px;
+  width: calc(100% - 70px);
+  max-width: 320px;
+  background: #fff;
+  z-index: 10;
+  border: 5px solid #255c99;
+  border-radius: 10px;
+  padding: 25px 15px;
+  box-sizing: border-box;
+  transition: right 0.5s;
+}
+
+.drawer_active {
+  right: -10px;
+}
+
+.handle {
+  position: absolute;
+  left: -88px;
+  top: 128px;
+  background: #255c99;
+  padding: 5px 20px;
+  color: #fff;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  cursor: pointer;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.listItem {
+  list-style: none;
+  padding: 10px 0;
+  margin: 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.listItem:last-child {
+  border-bottom: none;
+}
+
+.searchInput input {
+  padding: 9px 10px;
+  display: inline-block;
+  width: calc(100% - 68px);
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 100;
+  vertical-align: middle;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.searchInput button {
+  padding: 11px;
+  border: none;
+  background: #255c99;
+  color: #fff;
+  font-size: 14px;
+  line-height: 1;
+  font-weight: 200;
+  box-sizing: border-box;
+  margin-left: -1px;
+  vertical-align: middle;
+  outline: none;
+  cursor: pointer;
+}
+
+.searchInput button:active {
+  background: #255c99;
+}
+
 .filter {
   display: block;
-  margin: 10px 30px;
+  margin: 10px 10px;
 }
 
 .filter > span {
@@ -14,8 +95,8 @@
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background: #3f51b5;
-  border: 1px solid #3f51b5;
+  background: #255c99;
+  border: 1px solid #255c99;
   border-radius: 100%;
   cursor: pointer;
   display: block;
@@ -108,7 +189,7 @@
 }
 
 :global .InputRange-track--active {
-  background: #3f51b5;
+  background: #255c99;
 }
 
 :global .InputRange {
@@ -116,4 +197,27 @@
   height: 1rem;
   position: relative;
   width: 100%;
+}
+
+@media (min-width: 768px) {
+  .drawer {
+    position: static;
+    display: inline-block;
+    vertical-align: top;
+    width: 320px;
+    background: #fff;
+    z-index: 10;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    padding: 15px;
+    margin-left: 20px;
+  }
+  .handle {
+    position: static;
+    background: #f5f5f5;
+    padding: 5px 10px;
+    color: #888;
+    border-radius: 0;
+    cursor: default;
+  }
 }
