@@ -9,7 +9,7 @@
 
 const config = {
 
-  homepage: 'htts://www.kriasoft.com/web-app/',
+  homepage: 'https://github.com/snehatulsi',
 
   // Web analytics settings
   analytics: {
@@ -18,8 +18,8 @@ const config = {
 
   // Deployment settings
   deployment: {
-    repository: 'https://github.com/kriasoft/react-app.git',
-    branch: 'gh-pages',
+    repository: 'https://github.com/snehatulsi/topgit.git',
+    branch: 'master',
   },
 
 };
