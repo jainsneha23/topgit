@@ -1,68 +1,33 @@
 ---
-title: Getting Started
+title: TopGit — finding the best github projects!
 ---
 
-## Cadme comitum fecere
+### Contact Me At:
+* Sneha Jain
+* mystery.sneha@gmail.com
+* 8105266097
 
-Lorem markdownum velis auras figuram spes solebat spectabat, cum alium,
-plenissima aratri visae herbarum in corpore silvas consumpta. Subito virgae nec
-paratae flexit et niveae repperit erat paratu cum albis steterat conclamat hic!
+### TopGit
 
-Nocte suae ligat! *Si* nitidum pervia, illa tua, ab minimo pasci dabitur? In
-fictus concurreret pennis, illis cum accipe rogavi in et nostro cum lacertis
-hostibus ab saxo ne. Genibusque vixque; sine videt terribili lucos ipsum vobis
-resque, et suum pietatis fulvis, est velle. Semele oscula ferat frigidus mactata
-montes, es me parari, piae.
+It is a front end application which would let the users help list and browse top github projects conveniently
 
-## Inflataque ait leves frigida
+### Highlights
+1. Pagination with 10 pages visible on the bottom of active page. Enables user to quickly navigate to different pages.  Right and left arrow to go next page beyond 10.
+2. Responsive and elegant web page. 
+3. Filter bar on the right pane is collapsible when user is opening website in mobile device or the browser is small. 
+4. Search based on stars, language.
+5. Search based on stars have a number range from 0 to 1000 and user can select minimum and maximum stars by dragging the point on the number range line.
+6. Auto complete on search based on languages
+7. Busy animation added for loading of resources
 
-Letum per ipsa nostro animae, mari illuc in levi corpus aestibus excussam
-deflentem sic cuius. Venere dedit illa cui in quo senecta artus bella inficit,
-Achaica. Videbatur crinem resonantia alto dea umida dicitur igne; meus signa
-habet; est. Cognovit coepta: similes fugis: habuissem votivi liquida: ictus visi
-nostra me Adoni.
+### Installation
 
-## Laedar cum margine quoque
+Dillinger requires [Node.js](https://nodejs.org/) v4+ to run.
 
-Quam dato ullis, acer venturi volantes! Tuam non non cursu acta hic, novem
-nutrit, in sidera viscera iam fontes tempora, omnes. Saturnius artus inquit,
-conatoque erectos lenius, carinae, ora est infamia elige per Medusaei induitur.
-Quem quem ab postquam tunc frondescere nodis capiam labique. Voluere luce
-Semeles.
+Install the dependencies and devDependencies and start the server.
 
+```sh
+$ cd topgit
+$ npm install
+$ npm start
 ```
-    if (delete(digital, hibernateSoft, dynamicExcelVpn) > io_secondary_led /
-            84) {
-        disk = load;
-        orientationPci.matrix_laptop(modelSsdTweet);
-    } else {
-        kdeEmoticonLed.mebibyte_algorithm_domain(2,
-                hackerCtr.rom_iso_desktop.scarewarePrimaryBankruptcy(station,
-                disk_mask_matrix, restore_crt));
-        cameraSpyware(4, multitasking(-3, log_dfs_controller));
-        menuCisc.swappable -= w(mount_vle_unicode, 5);
-    }
-    var optic_spider = newbieFunctionThick(-3, esportsKbpsUnix);
-    var dvd_ctp_resolution = dithering;
-```
-
-## Usus fixurus illi petunt
-
-Domosque tune amas mihi adhuc et *alter per* suasque versavitque iners
-crescentemque nomen verba nunc. Acervos hinc natus si habet. Et cervix imago
-quod! Arduus dolet!
-
-```
-    cpcDdrCommand.window(moodleAlpha, im, server_alpha.doubleVrmlMonochrome(
-            iosBar - -2, white_dual, ad(2, 94, 83)));
-    mbps_typeface_publishing.bit.host_flash_capacity(click(90,
-            cyberspace_srgb_pup - mpeg, marketing_trackback +
-            table_plagiarism_domain));
-    syn_e = powerExtension * defragmentNntpOsd(alertOutputNode(pop,
-            pageResponsiveDrive));
-    method -= switch_newsgroup_flaming;
-```
-
-Aliquid mansura arida altismunera **in illi**. Dignus vir pontum *crimen
-versabat* carpunt omnes rotis Canentem erant in Oebalio, et manu senecta
-iungere. Prima diurnis!
