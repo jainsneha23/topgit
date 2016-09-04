@@ -13825,7 +13825,7 @@
         _react2.default.createElement(
           _Link2.default,
           { className: _Header2.default.title, to: '/' },
-          _react2.default.createElement('img', { src: '/logo.png', alt: 'Logo' }),
+          _react2.default.createElement('img', { src: 'logo.png', alt: 'Logo' }),
           _react2.default.createElement(
             'span',
             null,
