@@ -2,6 +2,10 @@
 
 It is a front end application which would let the users help list and browse top github projects conveniently
 
+## DEMO
+
+https://snehatulsi.github.io/topgit/
+
 ### Highlights
 1. Pagination with 10 pages visible on the bottom of active page. Enables user to quickly navigate to different pages.  Right and left arrow to go next page beyond 10.
 2. Responsive and elegant web page. 
