@@ -12,7 +12,7 @@ import history from '../../core/history';
 import Link from '../Link';
 import s from './Navigation.css';
 
-function Navigation() {
+const Navigation = () => {
   const path = history.getCurrentLocation().pathname;
   const linkClass = href => `${s.link}${path === href ? ` ${s.active}` : ''}`;
   return (
@@ -20,11 +20,11 @@ function Navigation() {
       <Link className={linkClass('/')} to="/">
         Home
       </Link>
-      <Link className={linkClass('/help')} to="/help">
-        Help
+      <Link className={linkClass('/aboutme')} to="/aboutme">
+        About Me
       </Link>
     </nav>
   );
-}
+};
 
 export default Navigation;

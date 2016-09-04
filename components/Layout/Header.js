@@ -12,7 +12,7 @@ import Navigation from './Navigation';
 import Link from '../Link';
 import s from './Header.css';
 
-function Header() {
+const Header = () => {
   return (
     <header className={s.header}>
       <div className={s.container}>
@@ -25,6 +25,6 @@ function Header() {
       </div>
     </header>
   );
-}
+};
 
 export default Header;

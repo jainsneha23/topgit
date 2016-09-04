@@ -4,7 +4,7 @@
     "component": "./routes/Home",
     "chunk": "main",
     "data": {
-      "articles": "GET https://gist.githubusercontent.com/koistya/a32919e847531320675764e7308b796a/raw/articles.json"
+      "projects": "GET https://api.github.com/search/repositories?q=stars:>=0"
     }
   },
   {
@@ -13,7 +13,7 @@
     "chunk": "main"
   },
   {
-    "path": "/help",
-    "component": "./routes/Help"
+    "path": "/aboutme",
+    "component": "./routes/Aboutme"
   }
 ]
