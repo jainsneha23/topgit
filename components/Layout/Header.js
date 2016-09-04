@@ -12,19 +12,16 @@ import Navigation from './Navigation';
 import Link from '../Link';
 import s from './Header.css';
 
-const Header = () => {
-  return (
-    <header className={s.header}>
-      <div className={s.container}>
-        <Link className={s.title} to="/">
-          <img src="/logo.png" alt="Logo" />
-          <span>Top <strong>GIT</strong></span>
-        </Link>
-        <span className={s.subtitle}> - Finding the best github projects!!</span>
-        <Navigation />
-      </div>
-    </header>
-  );
-};
+const Header = () => (
+  <header className={s.header}>
+    <div className={s.container}>
+      <Link className={s.title} to="/">
+        <img src="/logo.png" alt="Logo" />
+        <span>Top <strong>GIT</strong></span>
+      </Link>
+      <Navigation />
+    </div>
+  </header>
+);
 
 export default Header;

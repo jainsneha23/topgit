@@ -9,7 +9,10 @@ class QueryDrawer extends React.Component {
     super(props);
     this.state = {
       language: '',
-      stars: { min: 0, max: 1000 },
+      stars: {
+        min: 0,
+        max: 15000,
+      },
       active: false,
       languageOptions: [],
     };
@@ -75,7 +78,7 @@ class QueryDrawer extends React.Component {
             <label className={s.filter}>
               <span>Stars</span>
               <InputRange
-                maxValue={1000}
+                maxValue={15000}
                 minValue={0}
                 value={this.state.stars}
                 onChange={this.handleStar}
